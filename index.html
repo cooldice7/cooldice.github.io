@@ -151,8 +151,11 @@
                         <input class="multi" id="multi" type="number" pattern="[0-9]*" value="2" onkeyup="setMulti($(this).val());" onchange="setMulti($(this).val());">
                         <div class="ui basic label">X</div>
                     </div>
+                              <div class="ui icon buttons">
 					<button id="startBotButton" onclick="BotRunning=true;BotStartStop()">Start Bot</button><br/>
 					<button id="stopBotButton" onclick="BotRunning=false;BotStartStop()">Stop Bot</button><br/>
+</div>
+</ul>
             <div id="game_log">
                 <div id="game_actions">
                     <div class="ui statistics">
