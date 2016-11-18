@@ -142,32 +142,15 @@
                         <div class="ui basic label">Bits</div>
                     </div>
 <div class="ui right labeled input" id="oddsInputArea">
-                        <div class="ui label">Odds</div>
+                        <div class="ui label">Payout</div>
                         <input class="odds" id="odds" type="number" pattern="[0-9]*" value="2" onkeyup="setOdds($(this).val());" onchange="setOdds($(this).val());">
-                        <div class="ui basic label">OddsX</div>
+                        <div class="ui basic label">X</div>
                     </div>
 <div class="ui right labeled input" id="multiInputArea">
-                        <div class="ui label">Multi</div>
+                        <div class="ui label">Multiplier</div>
                         <input class="multi" id="multi" type="number" pattern="[0-9]*" value="2" onkeyup="setMulti($(this).val());" onchange="setMulti($(this).val());">
-                        <div class="ui basic label">Multi</div>
+                        <div class="ui basic label">X</div>
                     </div>
-                    <div class="ui icon buttons" id="bombsButtons">
-                        <button class="ui button" onclick="setBombs(1);"><i class="bomb icon"></i> 1</button>
-                        <button class="ui button" onclick="setBombs(3);"><i class="bomb icon"></i> 3</button>
-                        <button class="ui button" onclick="setBombs(5);"><i class="bomb icon"></i> 5</button>
-                        <button class="ui button" onclick="setBombs(24);"><i class="bomb icon"></i> 24</button>
-                        <button class="ui button customBombsButton">Custom</button>
-                    </div>
-                    <div class="ui right labeled input" id="customBombsInputArea" style="width: 100%; margin-top: 10px;">
-                        <div class="ui label"></div>
-                        <input class="customBombs" id="customBombs" type="number" pattern="[0-9]*" value="10" onkeyup="setBombs($(this).val());" onchange="setBombs($(this).val());" style="text-align: right;">
-                        <div class="ui basic label">Bombs</div>
-                    </div>
-                    <button id="startNewGameButton">Start new game</button>
-					<button id="startBotButton" onclick="BotRunning=true;BotStartStop()">Start Bot</button><br/>
-					<button id="stopBotButton" onclick="BotRunning=false;BotStartStop()">Stop Bot</button><br/>
-                </ul>
-            </div>
             <div id="game_log">
                 <div id="game_actions">
                     <div class="ui statistics">
