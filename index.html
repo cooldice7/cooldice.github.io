@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="eng">
     <head>
         <meta charset="utf-8" />
@@ -140,6 +140,16 @@
                         <div class="ui label">Bet</div>
                         <input class="bet" id="bet" type="number" pattern="[0-9]*" value="2" onkeyup="setBet($(this).val());" onchange="setBet($(this).val());">
                         <div class="ui basic label">Bits</div>
+                    </div>
+<div class="ui right labeled input" id="oddsInputArea">
+                        <div class="ui label">Odds</div>
+                        <input class="odds" id="odds" type="number" pattern="[0-9]*" value="2" onkeyup="setOdds($(this).val());" onchange="setOdds($(this).val());">
+                        <div class="ui basic label">OddsX</div>
+                    </div>
+<div class="ui right labeled input" id="multiInputArea">
+                        <div class="ui label">Multi</div>
+                        <input class="multi" id="multi" type="number" pattern="[0-9]*" value="2" onkeyup="setMulti($(this).val());" onchange="setMulti($(this).val());">
+                        <div class="ui basic label">Multi</div>
                     </div>
                     <div class="ui icon buttons" id="bombsButtons">
                         <button class="ui button" onclick="setBombs(1);"><i class="bomb icon"></i> 1</button>
