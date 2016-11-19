@@ -39,7 +39,7 @@ a{
     margin: 15px auto;
     width: 250px;
     height: 40px;
-    background: url(img/logo.png) no-repeat;
+    background: url("http://doubloon.co/lib/css/img/logo.png") no-repeat;
 }
 
 #connectButton{
