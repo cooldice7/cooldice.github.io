@@ -39,7 +39,8 @@ a{
     margin: 15px auto;
     width: 250px;
     height: 40px;
-    background: url("https://deeprocks4.github.io/lib/css/img/logo.png") no-repeat;
+	font-family: Georgia;
+	color: #21c5db;
 }
 
 #connectButton{
@@ -341,7 +342,7 @@ a{
     line-height: 50px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
-    color: #ffcc10;
+    color: #21c5db;
     font-size: 20px;
     white-space: nowrap;
 }
