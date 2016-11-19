@@ -10,7 +10,7 @@ html, body{
     min-width: 1000px;
     padding: 0;
     margin: 0;
-	background-image: url("http://deeprocks4.github.io/lib/css/img/backround2.jpg");
+	background-image: url("https://deeprocks4.github.io/lib/css/img/background.jpg");
     overflow-x: hidden;
     color: white;
     position: relative;
@@ -39,7 +39,7 @@ a{
     margin: 15px auto;
     width: 250px;
     height: 40px;
-    background: url("http://doubloon.co/lib/css/img/logo.png") no-repeat;
+    background: url("https://deeprocks4.github.io/lib/css/img/logo.png") no-repeat;
 }
 
 #connectButton{
