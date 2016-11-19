@@ -35,10 +35,11 @@ a{
 }
 
 #logo{
-	background-color: #fff;
+	background-color : transparent;
     margin: 15px auto;
     width: 250px;
     height: 40px;
+	background-image: url("https://deeprocks4.github.io/lib/css/img/logo.png");	
 	font-family: Georgia;
 	color: #21c5db;
 }
