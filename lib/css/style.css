@@ -37,11 +37,9 @@ a{
 #logo{
 	background-color : transparent;
     margin: 15px auto;
-    width: 250px;
-    height: 40px;
+    width: 400px;
+    height: 61px;
 	background-image: url("https://deeprocks4.github.io/lib/css/img/logo.png");	
-	font-family: Georgia;
-	color: #21c5db;
 }
 
 #connectButton{
