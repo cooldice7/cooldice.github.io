@@ -60,6 +60,24 @@ a{
     -webkit-tap-highlight-color: transparent;
 }
 
+#placebettButton{
+ -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Georgia;
+  color: #0f0d0f;
+  font-size: 16px;
+  background: #a8a8a8;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+#placebettButton:hover{
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
 #startBotButton, #stopBotButton{
  -webkit-border-radius: 28;
   -moz-border-radius: 28;
