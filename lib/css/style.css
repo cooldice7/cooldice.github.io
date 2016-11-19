@@ -10,7 +10,7 @@ html, body{
     min-width: 1000px;
     padding: 0;
     margin: 0;
-    background: #637aa8;
+    background: url(img/background.jpg);
     overflow-x: hidden;
     color: white;
     position: relative;
