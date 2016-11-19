@@ -10,7 +10,7 @@ html, body{
     min-width: 1000px;
     padding: 0;
     margin: 0;
-    background: url(img/background.jpg);
+	background-image: url("http://doubloon.co/lib/css/img/backround2.jpg");
     overflow-x: hidden;
     color: white;
     position: relative;
@@ -35,8 +35,11 @@ a{
 }
 
 #logo{
+	background-color: #fff;
     margin: 15px auto;
-    background: url(img/logo.png);
+    width: 250px;
+    height: 40px;
+    background: url(img/logo.png) no-repeat;
 }
 
 #connectButton{
