@@ -36,7 +36,7 @@ a{
 
 #logo{
     margin: 15px auto;
-    background: url(img/logo.png) no-repeat;
+    background: url(img/logo.png);
 }
 
 #connectButton{
