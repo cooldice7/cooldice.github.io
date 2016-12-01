@@ -139,6 +139,12 @@
                         <input class="multi" id="multi" type="number" pattern="[0-9]*" value="2" onkeyup="setMulti($(this).val());" onchange="setMulti($(this).val());">
                         <div class="ui basic label">X</div>
                     </div>
+			
+<div class="ui right labeled input" id="houseInputArea">
+                        <div class="ui label">Multiplier</div>
+                        <input class="house" id="house" type="number" pattern="[0-9]*" value="0.01" onkeyup="setHouse($(this).val());" onchange="setHouse($(this).val());">
+                        <div class="ui basic label">X</div>
+                    </div>
                     
                     
                        <button id="startNewGameButton">Start new game</button><br/>
